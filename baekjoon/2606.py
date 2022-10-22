@@ -21,5 +21,5 @@ while dq:
         if visited[i] == 0:
             dq.append(i)
             visited[i] = 1
-            result += 1 # 1번 컴퓨터를 통해 웜 바이러스에 감염되는 컴퓨터의 수를 구해야 하므로 while문 시작 전 dq에 1을 넣어주는 것은 카운트하지 X
+            result += 1 # 1번 컴퓨터를 통해 웜바이러스에 감염되는 컴퓨터의 수를 구해야 하므로 while문 시작 전 dq에 1을 넣어주는 것은 카운트하지 X
 print(result)
